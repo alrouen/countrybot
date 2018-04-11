@@ -1,0 +1,22 @@
+Sais-tu quelle est la capitale de la [country:country_fr](Thaïlande) ?
+S'il te plait peux-tu me donner le nom de capitale de la [country:country_fr](Suisse) ?
+Donne moi la capitale de la [country:country_fr](Roumanie) 
+Dites moi quelle est la capitale de l'[country:country_fr](Autriche) ?
+Pouvez-vous me dire quelle est la capitale de la [country:country_fr](Grèce) ?
+Dis moi quelle est la capitale du [country:country_fr](Luxembourg) ?
+Connaissez-vous la capitale de la [country:country_fr](Hongrie) ?
+C'est quoi la capitale en [country:country_fr](Italie) ?
+En [country:country_fr](Arabie saoudite) c'est quoi la capitale ?
+Je cherche la capitale de l'[country:country_fr](Espagne) 
+Nous cherchons la capitale du [country:country_fr](Canada)
+Mais quelle est la capitale de l'[country:country_fr](Australie) ?
+En [country:country_fr](Inde) quelle est la capitale ?
+En [country:country_fr](argentine) c'est quoi la capitale ?
+je cherche à connaitre la capitale du [country:country_fr](Brésil)
+Je voudrais connaitre la capitale du [country:country_fr](bresil) 
+Je cherche le nom de la capitale de la [country:country_fr](suede) 
+Connais-tu la capitale du [country:country_fr](Gabon) ?
+Aux [country:country_fr](Etats-Unis) quelle est la capitale ?
+Quelle est la capitale des [country:country_fr](Etats-Unis) ?
+Et en [country:country_fr](Allemagne) quelle est la capitale ?
+Quelle est la capitale de la [country:country_fr](France) ?

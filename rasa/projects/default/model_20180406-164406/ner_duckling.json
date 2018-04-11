@@ -1,0 +1,8 @@
+{
+  "dimensions": [
+    "time", 
+    "number", 
+    "amount-of-money", 
+    "distance"
+  ]
+}

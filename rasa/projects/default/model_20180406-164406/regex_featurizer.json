@@ -1,0 +1,6 @@
+[
+    {
+        "pattern": "(\\w+)", 
+        "name": "StartingWithOrMatching"
+    }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "countrybot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 6.1 <= 8.9"
+  },
+  "dependencies": {
+    "@botpress/analytics": "^10.0.2",
+    "@botpress/channel-slack": "^1.0.23",
+    "@botpress/channel-web": "^10.0.10",
+    "@botpress/skill-choice": "^10.0.4",
+    "botpress": "^10.0.6",
+    "jsdoc-api": "^4.0.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.21.0",
+    "ms": "^2.1.1",
+    "yn": "^2.0.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Botpress Proprietary License"
+}

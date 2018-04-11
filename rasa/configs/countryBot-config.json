@@ -1,0 +1,9 @@
+{
+ "language": "fr",
+ "num_threads": 2,
+ "max_training_processes": 2,
+ "pipeline": ["nlp_spacy", "tokenizer_spacy", "intent_entity_featurizer_regex", "intent_featurizer_spacy", "ner_crf", "ner_synonyms", "ner_spacy",  "intent_classifier_sklearn", "ner_duckling"],
+ "duckling_dimensions": ["time", "number", "amount-of-money", "distance"],
+ "path": "./projects",
+ "data": "./data/countryBot-data.json"
+}

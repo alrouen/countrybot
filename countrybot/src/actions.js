@@ -47,9 +47,9 @@ module.exports = {
     getIntent: async (state, event) => {
 
         await axios.post(
-            'http://localhost:5000/parse',
+            'http://localhost:10000/parse',
             {
-                "q":event.text,
+                "query":event.text,
                 "model": "model_20180406-164406"
             }
         ).then(function (response) {

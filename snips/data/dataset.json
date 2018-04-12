@@ -913,6 +913,18 @@
         {
           "synonyms": [], 
           "value": "France"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "France"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Australie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Burundi"
         }
       ]
     }
@@ -1461,6 +1473,51 @@
             }, 
             {
               "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "et celle de la "
+            }, 
+            {
+              "text": "France", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Et la capitale de l'"
+            }, 
+            {
+              "text": "Australie", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "J'ai oubli\u00e9 quelle est la capitale du "
+            }, 
+            {
+              "text": "Burundi", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": ", tu peux m'aider ?"
             }
           ]
         }

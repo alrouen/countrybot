@@ -15,15 +15,89 @@
       "id": "ac1345d5f4",
       "name": "entry",
       "onEnter": [
-        "say #!text-l1EHOg"
+        "searchCountryCapital {}"
       ],
       "onReceive": null,
+      "next": [
+        {
+          "condition": "state.intent.probability <= 0.6",
+          "node": "confirmQuestion"
+        },
+        {
+          "condition": "!!state.searchCountryCapitalResponse",
+          "node": "countryFound"
+        },
+        {
+          "condition": "!!!state.searchCountryCapitalResponse",
+          "node": "unknownCountry"
+        }
+      ]
+    },
+    {
+      "id": "81e1b95055",
+      "name": "countryFound",
       "next": [
         {
           "condition": "true",
           "node": "#"
         }
+      ],
+      "onEnter": [
+        "say #!text-l1EHOg"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ace4513461",
+      "name": "unknownCountry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!text-d~Y5OS"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "eb5490c47e",
+      "name": "confirmQuestion",
+      "next": [
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayYes\"",
+          "node": "countryFound"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayNo\"",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!text-b7Eh46"
+      ],
+      "onReceive": [
+        "debug {}",
+        "resolveIntent {\"intentFilter\":\"sayYes,sayNo\"}",
+        "debug {}"
       ]
+    },
+    {
+      "id": "1d8a08684d",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
     }
   ]
 }

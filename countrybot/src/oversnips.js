@@ -1,26 +1,17 @@
+const _ = require('lodash');
 const axios = require('axios');
 
 axios.defaults.headers.post['Content-Type'] = "application/json";
-
-const probabilityThreshold = 0.6;
 
 class Intent {
     constructor(snipsResponse) {
 
         if(snipsResponse.intent) {
 
-            if(snipsResponse.intent.probability >= probabilityThreshold) {
-                this._intent = {
-                    'found': true,
-                    'name': snipsResponse.intent.intentName,
-                    'probability': snipsResponse.intent.probability
-                }
-            } else {
-                this._intent = {
-                    'found': false,
-                    'name': "",
-                    'probability': 0.0
-                }
+            this._intent = {
+                'found': true,
+                'name': snipsResponse.intent.intentName,
+                'probability': snipsResponse.intent.probability
             }
 
         } else {
@@ -57,6 +48,10 @@ class Intent {
 
     get slots() {
         return this._slots;
+    }
+
+    slotByName(name) {
+        return _.find(this._slots, {"slotName": name});
     }
 
 }

@@ -1,9 +1,10 @@
 const _ = require('lodash');
-const moment = require('moment');
 const axios = require('axios');
-//const Promise = require('bluebird');
-const ms = require('ms');
 const oversnips = require('./oversnips');
+const countryDB = require('./countryDB');
+
+//const moment = require('moment');
+//const ms = require('ms');
 
 axios.defaults.headers.post['Content-Type'] = "application/json";
 
@@ -47,9 +48,11 @@ module.exports = {
 
     resolveIntent: async (state, event, { intentFilter } ) => {
 
-        event.reply('text', { typing: true });
+        console.log(event.text);
+        console.log("filter:");
+        console.log(intentFilter);
 
-        // console.log(`intent: ${snipsResponse.intent.intentName}: ${snipsResponse.intent.probability}`);
+        //event.reply('text', { typing: true });
 
         if(!!intentFilter) {
             return await oversnips.getFilteredIntent(event.text, intentFilter.split(',')).then((intent) => {
@@ -66,6 +69,19 @@ module.exports = {
                 return { ...state, intent: intent };
             });
         }
+    },
+
+    searchCountryCapital: async (state, event) => {
+      if(state.intent.found && state.intent.name === "searchCountryCapital") {
+
+          let countrySlot = state.intent.slotByName("country");
+          if(countrySlot) {
+              let country = countryDB.countryByName(countrySlot.value);
+              return { ...state, searchCountryCapitalResponse: country }
+          } else {
+              return { ...state, searchCountryCapitalResponse: { } }
+          }
+      }
     },
 
     debug: (state, event) => {

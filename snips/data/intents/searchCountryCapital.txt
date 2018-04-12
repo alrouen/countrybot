@@ -20,3 +20,6 @@ Aux [country:country_fr](Etats-Unis) quelle est la capitale ?
 Quelle est la capitale des [country:country_fr](Etats-Unis) ?
 Et en [country:country_fr](Allemagne) quelle est la capitale ?
 Quelle est la capitale de la [country:country_fr](France) ?
+et celle de la [country:country_fr](France) ?
+Et la capitale de l'[country:country_fr](Australie) ?
+J'ai oublié quelle est la capitale du [country:country_fr](Burundi), tu peux m'aider ?

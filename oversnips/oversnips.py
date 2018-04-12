@@ -57,7 +57,6 @@ class Parse(Resource):
 
         # TODO: secure intents attribute parsing (string or list)
         filter_intents = json['intents'] if "intents" in json else []
-
         if query is not None:
             if not filter_intents:
                 intent = engine.parse(json['query'])

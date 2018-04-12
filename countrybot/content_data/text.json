@@ -38,7 +38,7 @@
   {
     "id": "text-l1EHOg",
     "formData": {
-      "text": "la capitale de ce pays est {{state.searchCountryCapitalResponse.capital}}",
+      "text": "C'est {{state.searchCountryCapitalResponse.capital}}",
       "typing": true
     },
     "createdBy": "admin",
@@ -65,10 +65,37 @@
   {
     "id": "text-b7Eh46",
     "formData": {
-      "text": "Vous cherchez bien la capitale de ce {{state.searchCountryCapitalResponse.name}} pays ?",
+      "text": "Vous cherchez bien la capitale de ce pays : {{state.searchCountryCapitalResponse.name}} ?",
       "typing": true
     },
     "createdBy": "admin",
     "createdOn": "2018-04-12T16:06:30.987Z"
+  },
+  {
+    "id": "text-MVEFMH",
+    "formData": {
+      "text": "Je vais bien merci! Que puis-je faire pour vous ?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T21:22:15.224Z"
+  },
+  {
+    "id": "text-EhLT7h",
+    "formData": {
+      "text": "Désolé, mais je ne saurais pas vous aider :(",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T21:33:37.768Z"
+  },
+  {
+    "id": "text-_MJ3Z3",
+    "formData": {
+      "text": "Ok, que puis-je faire pour vous aider ?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T22:03:48.787Z"
   }
 ]

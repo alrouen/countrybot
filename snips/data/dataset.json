@@ -1,7 +1,7 @@
 {
   "entities": {
     "country_fr": {
-      "automatically_extensible": true, 
+      "automatically_extensible": false, 
       "use_synonyms": true, 
       "data": [
         {
@@ -892,6 +892,22 @@
         }, 
         {
           "synonyms": [], 
+          "value": "USA"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "USA"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "USA"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "USA"
+        }, 
+        {
+          "synonyms": [], 
           "value": "suede"
         }, 
         {
@@ -925,6 +941,14 @@
         {
           "synonyms": [], 
           "value": "Burundi"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "USA"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Allemagne"
         }
       ]
     }
@@ -1392,6 +1416,66 @@
         {
           "data": [
             {
+              "text": "La capitale des "
+            }, 
+            {
+              "text": "USA", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " c'est quoi ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "La capitale des "
+            }, 
+            {
+              "text": "USA", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " c'est ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Aux "
+            }, 
+            {
+              "text": "USA", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " c'est quoi la capitale ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Capitale des "
+            }, 
+            {
+              "text": "USA", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
               "text": "Je cherche le nom de la capitale de la "
             }, 
             {
@@ -1518,6 +1602,36 @@
             }, 
             {
               "text": ", tu peux m'aider ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Et celle des "
+            }, 
+            {
+              "text": "USA", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Et en "
+            }, 
+            {
+              "text": "Allemagne", 
+              "entity": "country_fr", 
+              "slot_name": "country"
+            }, 
+            {
+              "text": " ?"
             }
           ]
         }
@@ -2199,6 +2313,290 @@
           "data": [
             {
               "text": "Non"
+            }
+          ]
+        }
+      ]
+    }, 
+    "sayHowAreYou": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00e7a mousse ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "qu\u00e9 tal ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "c\u00f3mo est\u00e1s ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "how are you ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "wie geht\u2019s ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour Monsieur, comment allez-vous ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour, comment allez-vous ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Comment tu vas gars ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Tout est ok ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Tout va bien ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Tout roule pour toi ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Est-ce que tout va bien ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Est ce que \u00e7a va ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Je venais prendre de vos nouvelles"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Mes chers amis, il y a bien longtemps que je n'ai eu de vos nouvelles"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Je venais prendre de vos nouvelles"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "qu\u2019est-ce t\u2019en dis ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "comment vous allez ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "comment vas-tu ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "comment que c\u2019est ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "comment \u00e7a va bien ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a roule"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a geitz ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a geht\u2019s mol ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a biche ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a baigne ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Comment vont les affaires?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a baigne ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a va ou bien ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a pulse ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Comment va le bot ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a le fait aujourd'hui bonhomme ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Comment tu vas ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Comment te sens tu ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Comment allez vous ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a boume ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a d\u00e9pote ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "comment va ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e7a gaz ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Comment \u00e7a va ?"
             }
           ]
         }

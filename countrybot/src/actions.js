@@ -77,9 +77,11 @@ module.exports = {
           let countrySlot = state.intent.slotByName("country");
           if(countrySlot) {
               let country = countryDB.countryByName(countrySlot.value);
+              console.log(`capital is: ${country.capital}`);
               return { ...state, searchCountryCapitalResponse: country }
           } else {
-              return { ...state, searchCountryCapitalResponse: { } }
+              console.log("no country found :(");
+              return _.omit(state, ["searchCountryCapitalResponse"]);
           }
       }
     },

@@ -8,9 +8,13 @@
   "nodes": [
     {
       "id": "0f6f7b5889",
-      "name": "entry",
+      "name": "mainIntents",
       "onEnter": [],
       "next": [
+        {
+          "condition": "state.intent.found && state.intent.probability < 0.6",
+          "node": "unknownQuestion.flow.json"
+        },
         {
           "condition": "state.intent.found && state.intent.name === \"sayHello\"",
           "node": "sayHello"
@@ -18,6 +22,10 @@
         {
           "condition": "state.intent.found && state.intent.name === \"sayThankYou\"",
           "node": "sayThankYou"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayHowAreYou\"",
+          "node": "sayImFineThanks"
         },
         {
           "condition": "state.intent.found && state.intent.name === \"searchCountryCapital\"",
@@ -29,7 +37,7 @@
         },
         {
           "condition": "true",
-          "node": "unknownIntent"
+          "node": "doNotUnderstand.flow.json"
         }
       ],
       "onReceive": [
@@ -42,7 +50,7 @@
       "next": [
         {
           "condition": "true",
-          "node": "entry"
+          "node": "mainIntents"
         }
       ],
       "onEnter": [
@@ -56,25 +64,11 @@
       "next": [
         {
           "condition": "true",
-          "node": "entry"
+          "node": "mainIntents"
         }
       ],
       "onEnter": [
         "say #!text-r9oIe1"
-      ],
-      "onReceive": null
-    },
-    {
-      "id": "d9b8fd507b",
-      "name": "unknownIntent",
-      "next": [
-        {
-          "condition": "true",
-          "node": "entry"
-        }
-      ],
-      "onEnter": [
-        "say #!text-eV4ZPH"
       ],
       "onReceive": null
     },
@@ -84,11 +78,25 @@
       "next": [
         {
           "condition": "true",
-          "node": "entry"
+          "node": "mainIntents"
         }
       ],
       "onEnter": [
         "say #!text-I1nGfK"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "e09b74d5d4",
+      "name": "sayImFineThanks",
+      "next": [
+        {
+          "condition": "true",
+          "node": "mainIntents"
+        }
+      ],
+      "onEnter": [
+        "say #!text-MVEFMH"
       ],
       "onReceive": null
     }

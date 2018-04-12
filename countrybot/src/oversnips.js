@@ -8,6 +8,8 @@ class Intent {
 
         if(snipsResponse.intent) {
 
+            console.log(snipsResponse.intent);
+
             this._intent = {
                 'found': true,
                 'name': snipsResponse.intent.intentName,
@@ -23,6 +25,9 @@ class Intent {
         }
 
         if(snipsResponse.slots) {
+
+            console.log(snipsResponse.slots);
+
             this._slots = snipsResponse.slots.map(slot => ({
                 value: slot.value.value,
                 kind: slot.value.kind,

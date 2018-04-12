@@ -14,6 +14,10 @@ En [country:country_fr](Inde) quelle est la capitale ?
 En [country:country_fr](argentine) c'est quoi la capitale ?
 je cherche à connaitre la capitale du [country:country_fr](Brésil)
 Je voudrais connaitre la capitale du [country:country_fr](bresil) 
+La capitale des [country:country_fr](USA) c'est quoi ?
+La capitale des [country:country_fr](USA) c'est ?
+Aux [country:country_fr](USA) c'est quoi la capitale ?
+Capitale des [country:country_fr](USA) ?
 Je cherche le nom de la capitale de la [country:country_fr](suede) 
 Connais-tu la capitale du [country:country_fr](Gabon) ?
 Aux [country:country_fr](Etats-Unis) quelle est la capitale ?
@@ -23,3 +27,5 @@ Quelle est la capitale de la [country:country_fr](France) ?
 et celle de la [country:country_fr](France) ?
 Et la capitale de l'[country:country_fr](Australie) ?
 J'ai oublié quelle est la capitale du [country:country_fr](Burundi), tu peux m'aider ?
+Et celle des [country:country_fr](USA) ?
+Et en [country:country_fr](Allemagne) ?

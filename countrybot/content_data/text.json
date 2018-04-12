@@ -1,0 +1,56 @@
+[
+  {
+    "id": "text-5ZFkcD",
+    "formData": {
+      "text": "Bonjour!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T09:06:16.970Z"
+  },
+  {
+    "id": "text-GgTJki",
+    "formData": {
+      "text": "A bientôt",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T09:21:49.183Z"
+  },
+  {
+    "id": "text-r9oIe1",
+    "formData": {
+      "text": "Mais de rien ! :)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T09:22:22.728Z"
+  },
+  {
+    "id": "text-eV4ZPH",
+    "formData": {
+      "text": "Désolé, mais je ne suis pas sûr de comprendre la question. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T09:24:42.718Z"
+  },
+  {
+    "id": "text-l1EHOg",
+    "formData": {
+      "text": "la capitale du .... est ...",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T09:28:53.736Z"
+  },
+  {
+    "id": "text-I1nGfK",
+    "formData": {
+      "text": "Bienvenue! Je m'appelle CountryBot",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-04-12T12:56:14.362Z"
+  }
+]

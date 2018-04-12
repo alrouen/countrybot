@@ -1,0 +1,1 @@
+generate-dataset --language fr --intent-files ./data/intents/*.txt --entity-files ./data/entities/*.txt > ./data/dataset.json

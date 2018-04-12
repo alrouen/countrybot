@@ -3,6 +3,7 @@ const moment = require('moment');
 const axios = require('axios');
 //const Promise = require('bluebird');
 const ms = require('ms');
+const oversnips = require('./oversnips');
 
 axios.defaults.headers.post['Content-Type'] = "application/json";
 
@@ -44,22 +45,32 @@ module.exports = {
         return { ...state, [into]: _.get(event, path) }
     },
 
-    getIntent: async (state, event) => {
+    resolveIntent: async (state, event, { intentFilter } ) => {
 
-        await axios.post(
-            'http://localhost:10000/parse',
-            {
-                "query":event.text,
-                "model": "model_20180406-164406"
-            }
-        ).then(function (response) {
-            console.log(response.data);
-            event.reply('text', { text: "Ok here", typing: '2s' } );
-            return { ...state };
-        }).catch(function (error) {
-            console.log(error);
-            return { ...state };
-        });
+        event.reply('text', { typing: true });
+
+        // console.log(`intent: ${snipsResponse.intent.intentName}: ${snipsResponse.intent.probability}`);
+
+        if(!!intentFilter) {
+            return await oversnips.getFilteredIntent(event.text, intentFilter.split(',')).then((intent) => {
+                console.log(`intent: ${intent.name}: ${intent.probability}`);
+                console.log("slots:");
+                console.log(intent.slots);
+                return { ...state, intent: intent };
+            });
+        } else {
+            return await oversnips.getIntent(event.text).then((intent) => {
+                console.log(`intent: ${intent.name}: ${intent.probability}`);
+                console.log("slots:");
+                console.log(intent.slots);
+                return { ...state, intent: intent };
+            });
+        }
+    },
+
+    debug: (state, event) => {
+        console.log(state);
+        return {...state};
     }
 
 };

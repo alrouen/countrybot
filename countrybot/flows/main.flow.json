@@ -1,15 +1,96 @@
 {
   "version": "0.1",
-  "catchAll": {},
-  "startNode": "entry",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "start",
   "nodes": [
     {
       "id": "0f6f7b5889",
       "name": "entry",
-      "onEnter": [
-        "getIntent {}"
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayHello\"",
+          "node": "sayHello"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayThankYou\"",
+          "node": "sayThankYou"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"searchCountryCapital\"",
+          "node": "countryCapital.flow.json"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayGoodBye\"",
+          "node": "end.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "unknownIntent"
+        }
       ],
-      "next": []
+      "onReceive": [
+        "resolveIntent {}"
+      ]
+    },
+    {
+      "id": "e8635856e9",
+      "name": "sayHello",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!text-5ZFkcD"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f67c7fc9b1",
+      "name": "sayThankYou",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!text-r9oIe1"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d9b8fd507b",
+      "name": "unknownIntent",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!text-eV4ZPH"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "fd499eb809",
+      "name": "start",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!text-I1nGfK"
+      ],
+      "onReceive": null
     }
   ]
 }

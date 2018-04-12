@@ -1,5 +1,5 @@
 from flask import Flask, request, abort
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, reqparse
 import signal
 import threading
 from json import dumps, loads
@@ -8,13 +8,13 @@ from json import dumps, loads
 from org.oversnips import TrainerWorker, NLUTrainer, NLUEngine
 
 lang = u"fr"
-config = "/Users/alain/Dev/smile/countrybot/snips/data/config_fr.json"
+config = "/Users/alain/Dev/smile/countrybot/snips/configs/config_fr.json"
 dataset = "/Users/alain/Dev/smile/countrybot/snips/data/dataset.json"
-model = "/Users/alain/Dev/smile/countrybot/snips/data/model.json"
+model = "/Users/alain/Dev/smile/countrybot/snips/models/model.json"
 
 trainer = NLUTrainer(lang, config)
 engine = NLUEngine(lang, model)
-trainerWorker = TrainerWorker(trainer)
+trainerWorker = TrainerWorker(trainer, engine)
 t_trainerWorker = threading.Thread(target=trainerWorker.task)
 t_trainerWorker.setDaemon(True)
 t_trainerWorker.start()
@@ -43,18 +43,34 @@ class Train(Resource):
         return { 'ok': True }
 
 
+parseArgs = reqparse.RequestParser()
+parseArgs.add_argument('model', type=str, required=False)
+
+
 class Parse(Resource):
     def post(self):
+
+        args = parseArgs.parse_args()
+
         json = request.get_json()
-        if json['query'] is not None:
-            intent = engine.parse(json['query'])
-            return intent
+        query = json['query'] if "query" in json else None
+
+        # TODO: secure intents attribute parsing (string or list)
+        filter_intents = json['intents'] if "intents" in json else []
+
+        if query is not None:
+            if not filter_intents:
+                intent = engine.parse(json['query'])
+                return intent
+            else:
+                intent = engine.filtered_parse(json['query'], filter_intents)
+                return intent
+
         else:
             abort(400, "invalid query")
 
 
 # engine = SnipsNLUEngine(u"fr", )
-
 
 app = Flask(__name__)
 api = Api(app)
@@ -90,7 +106,11 @@ Input :
 
 {
     "query": "Salut, quelle est la capitale du Mexique ? Merci!",
-    "model": "xxxx"
+}
+
+{
+   "query": "Salut, quelle est la capitale du Mexique ? Merci!",
+   "intents": ["sayYes", "sayNo"]
 }
 
 Output :

@@ -6,127 +6,7 @@
       "data": [
         {
           "synonyms": [], 
-          "value": "France"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Qatar"
-        }, 
-        {
-          "synonyms": [
-            "USA"
-          ], 
-          "value": "\u00c9tats-Unis"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Canada"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Maroc"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Pologne"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Australie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Alg\u00e9rie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Suisse"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Belgique"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "\u00c9mirats arabes unis"
-        }, 
-        {
-          "synonyms": [
-            "Angleterre"
-          ], 
-          "value": "Royaume-Uni"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Comores"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Arabie saoudite"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Allemagne"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Espagne"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Italie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Japon"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Russie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Inde"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "R\u00e9publique populaire de Chine"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Pays-Bas"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Portugal"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Lettonie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Singapour"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Isra\u00ebl"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Br\u00e9sil"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Monaco"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Madagascar"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "R\u00e9publique d\u00e9mocratique du Congo"
+          "value": "Afghanistan"
         }, 
         {
           "synonyms": [], 
@@ -134,191 +14,15 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Islande"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Malte"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Cor\u00e9e du Nord"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Luxembourg"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Iran"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Croatie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Bahre\u00efn"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Irlande"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Philippines"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Tunisie"
-        }, 
-        {
-          "synonyms": [], 
           "value": "Albanie"
         }, 
         {
           "synonyms": [], 
-          "value": "Turquie"
+          "value": "Alg\u00e9rie"
         }, 
         {
           "synonyms": [], 
-          "value": "Gr\u00e8ce"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Norv\u00e8ge"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Mexique"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Mont\u00e9n\u00e9gro"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "C\u00f4te d'Ivoire"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Cuba"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Su\u00e8de"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Argentine"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Maldives"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Nouvelle-Z\u00e9lande"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Indon\u00e9sie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Ukraine"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Liban"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Tha\u00eflande"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Birmanie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Roumanie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "\u00c9gypte"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Syrie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Kazakhstan"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Cor\u00e9e du Sud"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Oman"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "R\u00e9publique tch\u00e8que"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Ha\u00efti"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "S\u00e9n\u00e9gal"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Cap-Vert"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Mali"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Arm\u00e9nie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Cameroun"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Autriche"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Vi\u00eat Nam"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Finlande"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Afghanistan"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Seychelles"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Hongrie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Colombie"
+          "value": "Allemagne"
         }, 
         {
           "synonyms": [], 
@@ -326,79 +30,33 @@
         }, 
         {
           "synonyms": [], 
-          "value": "R\u00e9publique de Mac\u00e9doine"
+          "value": "Angola"
+        }, 
+        {
+          "synonyms": [
+            "Antigua et barduda"
+          ], 
+          "value": "Antigua-et-Barbuda"
         }, 
         {
           "synonyms": [], 
-          "value": "Saint-Marin"
+          "value": "Arabie saoudite"
         }, 
         {
           "synonyms": [], 
-          "value": "Chypre"
+          "value": "Argentine"
         }, 
         {
           "synonyms": [], 
-          "value": "Guin\u00e9e"
+          "value": "Arm\u00e9nie"
         }, 
         {
           "synonyms": [], 
-          "value": "Chili"
+          "value": "Australie"
         }, 
         {
           "synonyms": [], 
-          "value": "Malaisie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Serbie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "B\u00e9nin"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Sri Lanka"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Nigeria"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "R\u00e9publique du Congo"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Bulgarie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "G\u00e9orgie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "\u00c9thiopie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "R\u00e9publique dominicaine"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "\u00c9rythr\u00e9e"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Moldavie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Burkina Faso"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Venezuela"
+          "value": "Autriche"
         }, 
         {
           "synonyms": [], 
@@ -406,51 +64,11 @@
         }, 
         {
           "synonyms": [], 
-          "value": "P\u00e9rou"
+          "value": "Bahamas"
         }, 
         {
           "synonyms": [], 
-          "value": "Fidji"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Estonie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Cambodge"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Bosnie-Herz\u00e9govine"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Costa Rica"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Mongolie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Pakistan"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Slov\u00e9nie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Maurice"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Irak"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Lituanie"
+          "value": "Bahre\u00efn"
         }, 
         {
           "synonyms": [], 
@@ -458,83 +76,11 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Tanzanie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Rwanda"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Liechtenstein"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Bolivie"
-        }, 
-        {
-          "synonyms": [], 
           "value": "Barbade"
         }, 
         {
           "synonyms": [], 
-          "value": "Bi\u00e9lorussie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Y\u00e9men"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Namibie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Vanuatu"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Jordanie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Jama\u00efque"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Mauritanie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Kowe\u00eft"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "\u00c9quateur"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Angola"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Panama"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Slovaquie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Gabon"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Libye"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Ouzb\u00e9kistan"
+          "value": "Belgique"
         }, 
         {
           "synonyms": [], 
@@ -542,39 +88,7 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Togo"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Djibouti"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Nicaragua"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Somalie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "R\u00e9publique d\u00e9mocratique allemande"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Sainte-Lucie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Niger"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Soudan"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Bahamas"
+          "value": "B\u00e9nin"
         }, 
         {
           "synonyms": [], 
@@ -582,107 +96,15 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Papouasie-Nouvelle-Guin\u00e9e"
+          "value": "Birmanie"
         }, 
         {
           "synonyms": [], 
-          "value": "Kenya"
+          "value": "Bolivie"
         }, 
         {
           "synonyms": [], 
-          "value": "Laos"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Guin\u00e9e \u00e9quatoriale"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Zimbabwe"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Burundi"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Dominique"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Trinit\u00e9-et-Tobago"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Suriname"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Uruguay"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "N\u00e9pal"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Nauru"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "R\u00e9publique centrafricaine"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Ouganda"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Tchad"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Samoa"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Guatemala"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Ghana"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Mozambique"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Swaziland"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Kirghizistan"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Sierra Leone"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Kiribati"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Sao Tom\u00e9-et-Principe"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Liberia"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Brunei"
+          "value": "Bosnie-Herz\u00e9govine"
         }, 
         {
           "synonyms": [], 
@@ -690,15 +112,143 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Paraguay"
+          "value": "Br\u00e9sil"
         }, 
         {
           "synonyms": [], 
-          "value": "Turkm\u00e9nistan"
+          "value": "Brunei"
         }, 
         {
           "synonyms": [], 
-          "value": "Guin\u00e9e-Bissau"
+          "value": "Bulgarie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Burkina Faso"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Burundi"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Cambodge"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Cameroun"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Canada"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Cap-Vert"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Chili"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Chypre"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Colombie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Comores"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Cor\u00e9e du Nord"
+        }, 
+        {
+          "synonyms": [
+            "Cor\u00e9e"
+          ], 
+          "value": "Cor\u00e9e du Sud"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Costa Rica"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "C\u00f4te d'Ivoire"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Croatie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Cuba"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Djibouti"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Dominique"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "\u00c9gypte"
+        }, 
+        {
+          "synonyms": [
+            "Emirats", 
+            " Emirat arabes"
+          ], 
+          "value": "\u00c9mirats arabes unis"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "\u00c9quateur"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "\u00c9rythr\u00e9e"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Espagne"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Estonie"
+        }, 
+        {
+          "synonyms": [
+            "USA", 
+            " etats-unis"
+          ], 
+          "value": "\u00c9tats-Unis"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "\u00c9thiopie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Fidji"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Finlande"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "France"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Gabon"
         }, 
         {
           "synonyms": [], 
@@ -706,55 +256,15 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Lesotho"
+          "value": "G\u00e9orgie"
         }, 
         {
           "synonyms": [], 
-          "value": "Guyana"
+          "value": "Ghana"
         }, 
         {
           "synonyms": [], 
-          "value": "Zambie"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Salvador"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Timor oriental"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Tadjikistan"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Honduras"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Soudan du Sud"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Saint-Christophe-et-Ni\u00e9v\u00e8s"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Malawi"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Tonga"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Palaos"
-        }, 
-        {
-          "synonyms": [], 
-          "value": "Antigua-et-Barbuda"
+          "value": "Gr\u00e8ce"
         }, 
         {
           "synonyms": [], 
@@ -762,14 +272,521 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Salomon"
+          "value": "Guatemala"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Guin\u00e9e"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Guin\u00e9e \u00e9quatoriale"
         }, 
         {
           "synonyms": [
-            "St-Vincent et les Grenadines", 
-            ""
+            "Guin\u00e9e Bissau"
+          ], 
+          "value": "Guin\u00e9e-Bissau"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Guyana"
+        }, 
+        {
+          "synonyms": [
+            "Haiti"
+          ], 
+          "value": "Ha\u00efti"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Honduras"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Hongrie"
+        }, 
+        {
+          "synonyms": [
+            "Maurice"
+          ], 
+          "value": "\u00eele Maurice"
+        }, 
+        {
+          "synonyms": [
+            "Marshall"
+          ], 
+          "value": "\u00eeles Marshall"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Inde"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Indon\u00e9sie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Irak"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Iran"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Irlande"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Islande"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Isra\u00ebl"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Italie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Jama\u00efque"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Japon"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Jordanie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Kazakhstan"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Kenya"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Kirghizistan"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Kiribati"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Kowe\u00eft"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Laos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Lesotho"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Lettonie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Liban"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Liberia"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Libye"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Liechtenstein"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Lituanie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Luxembourg"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Madagascar"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Malaisie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Malawi"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Maldives"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Mali"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Malte"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Maroc"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Mauritanie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Mexique"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Micron\u00e9sie"
+        }, 
+        {
+          "synonyms": [
+            "Moldavie"
+          ], 
+          "value": "R\u00e9publique de Moldavie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Monaco"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Mongolie"
+        }, 
+        {
+          "synonyms": [
+            "Mont\u00e9n\u00e9gro"
+          ], 
+          "value": "Mont\u00e9n\u00e9gro"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Mozambique"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Namibie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Nauru"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "N\u00e9pal"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Nicaragua"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Niger"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Nigeria"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Norv\u00e8ge"
+        }, 
+        {
+          "synonyms": [
+            "nouvelle z\u00e9lande"
+          ], 
+          "value": "Nouvelle-Z\u00e9lande"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Oman"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Ouganda"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Ouzb\u00e9kistan"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Pakistan"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Palaos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Panama"
+        }, 
+        {
+          "synonyms": [
+            "Nouvelle guin\u00e9e"
+          ], 
+          "value": "Papouasie-Nouvelle-Guin\u00e9e"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Paraguay"
+        }, 
+        {
+          "synonyms": [
+            "Hollande"
+          ], 
+          "value": "Pays-Bas"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "P\u00e9rou"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Philippines"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Pologne"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Portugal"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Qatar"
+        }, 
+        {
+          "synonyms": [
+            "Centrafrique"
+          ], 
+          "value": "R\u00e9publique centrafricaine"
+        }, 
+        {
+          "synonyms": [
+            "Mac\u00e9doine"
+          ], 
+          "value": "R\u00e9publique de Mac\u00e9doine"
+        }, 
+        {
+          "synonyms": [
+            "RDC"
+          ], 
+          "value": "R\u00e9publique d\u00e9mocratique du Congo"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "R\u00e9publique dominicaine"
+        }, 
+        {
+          "synonyms": [
+            "Congo"
+          ], 
+          "value": "R\u00e9publique du Congo"
+        }, 
+        {
+          "synonyms": [
+            "Chine"
+          ], 
+          "value": "R\u00e9publique populaire de Chine"
+        }, 
+        {
+          "synonyms": [
+            "Bi\u00e9lorussie"
+          ], 
+          "value": "R\u00e9publique socialiste sovi\u00e9tique de Bi\u00e9lorussie"
+        }, 
+        {
+          "synonyms": [
+            "Tch\u00e9quie"
+          ], 
+          "value": "R\u00e9publique tch\u00e8que"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Roumanie"
+        }, 
+        {
+          "synonyms": [
+            "Angleterre", 
+            " Grande-Bretagne"
+          ], 
+          "value": "Royaume-Uni"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Russie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Rwanda"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Saint-Marin"
+        }, 
+        {
+          "synonyms": [
+            "St Vincent les grenadine"
           ], 
           "value": "Saint-Vincent-et-les-Grenadines"
+        }, 
+        {
+          "synonyms": [
+            "Sainte Lucie"
+          ], 
+          "value": "Sainte-Lucie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Salomon"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Salvador"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Samoa"
+        }, 
+        {
+          "synonyms": [
+            "Sao Tom\u00e9 et principe", 
+            " Sao Tom\u00e9"
+          ], 
+          "value": "S\u00e3o Tom\u00e9 et Pr\u00edncipe"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "S\u00e9n\u00e9gal"
+        }, 
+        {
+          "synonyms": [
+            "Serbie"
+          ], 
+          "value": "R\u00e9publique de Serbie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Seychelles"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Sierra Leone"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Singapour"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Slovaquie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Slov\u00e9nie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Somalie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Soudan"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Soudan du Sud"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Sri Lanka"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Su\u00e8de"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Suisse"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Suriname"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Swaziland"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Syrie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Tadjikistan"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Tanzanie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Tchad"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Tha\u00eflande"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Timor oriental"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Togo"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Tonga"
+        }, 
+        {
+          "synonyms": [
+            "Trinit\u00e9 et tobago"
+          ], 
+          "value": "Trinit\u00e9-et-Tobago"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Tunisie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Turkm\u00e9nistan"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Turquie"
         }, 
         {
           "synonyms": [], 
@@ -777,23 +794,37 @@
         }, 
         {
           "synonyms": [], 
-          "value": "Micron\u00e9sie"
+          "value": "Ukraine"
         }, 
         {
           "synonyms": [], 
-          "value": "\u00eeles Marshall"
+          "value": "Uruguay"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Vanuatu"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Venezuela"
         }, 
         {
           "synonyms": [
-            "Ukraine"
+            "vietnam"
           ], 
-          "value": "R\u00e9publique socialiste sovi\u00e9tique d'Ukraine"
+          "value": "Vi\u00eat Nam"
         }, 
         {
-          "synonyms": [
-            "Bi\u00e9lorussie"
-          ], 
-          "value": "R\u00e9publique socialiste sovi\u00e9tique de Bi\u00e9lorussie"
+          "synonyms": [], 
+          "value": "Y\u00e9men"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Zambie"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Zimbabwe"
         }, 
         {
           "synonyms": [], 
@@ -887,401 +918,233 @@
     }
   }, 
   "intents": {
-    "sayHello": {
+    "noise": {
       "utterances": [
         {
           "data": [
             {
-              "text": "Bonjour Humanoid"
+              "text": "whaahazzaz"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Ave, Bot!"
+              "text": "je me demande"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Bj le bot!"
+              "text": "blabla"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "He! Salut"
+              "text": "blibli"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Hello le bot!"
+              "text": "et sinon ?"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Toutes mes salutations!"
+              "text": "??"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Mes salutations"
+              "text": "???"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "bien le bonjour"
+              "text": "?"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Bonjour, mon ami"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "bjr"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Coucou le bot"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bj le bot"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour monsieur le bot"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour monsieur le robot"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "allo"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "salamalec"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "kikou"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonsoir"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Coucou"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Salutation \u00e0 vous"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Salutation \u00e0 toi"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour \u00e0 toi"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour \u00e0 vous"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour je cherche de l'aide"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour robot"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour vous"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour toi"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Salutation humain"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Salutation!"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Salut toi"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bj"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Yo"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Hello"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour madame"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour monsieur"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Salut"
-            }
-          ]
-        }, 
-        {
-          "data": [
-            {
-              "text": "Bonjour"
+              "text": "H\u00e9!"
             }
           ]
         }
       ]
     }, 
-    "sayGoodBye": {
+    "sayYes": {
       "utterances": [
         {
           "data": [
             {
-              "text": "tchao bonsoir"
+              "text": "Allons y"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "\u00e0 plus tard"
+              "text": "Feu"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "bonne journ\u00e9e"
+              "text": "Oui!"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "\u00e0 plus"
+              "text": "Oui."
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "au plaisir"
+              "text": "ok..."
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "\u00e0 la prochaine"
+              "text": "Ouaip"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "adieux"
+              "text": "Ouai"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "adieu"
+              "text": "ok, on fait comme \u00e7a"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "\u00e0 la revoyure"
+              "text": "on fait comme \u00e7a"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "cu"
+              "text": "cela me va comme \u00e7a"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Byebye"
+              "text": "cela me va"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Au revoir \u00e0 bient\u00f4t"
+              "text": "c'est tout bon"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "A bient\u00f4t"
+              "text": "on est bon"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "a+"
+              "text": "oui c'est \u00e7a"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "A+"
+              "text": "ok cela me va"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Ciao"
+              "text": "c'est bien \u00e7a"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Tchao"
+              "text": "yep"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Bye"
+              "text": "ok"
             }
           ]
         }, 
         {
           "data": [
             {
-              "text": "Au revoir"
+              "text": "je suis d'accord"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "tout \u00e0 fait"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "oui d'accord"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Yes"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Oui"
             }
           ]
         }
@@ -1728,6 +1591,557 @@
           "data": [
             {
               "text": "Merci!"
+            }
+          ]
+        }
+      ]
+    }, 
+    "sayHello": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Bonjour Humanoid"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Ave, Bot!"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bj le bot!"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "He! Salut"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Hello le bot!"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Toutes mes salutations!"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Mes salutations"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "bien le bonjour"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour, mon ami"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "bjr"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Coucou le bot"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bj le bot"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour monsieur le bot"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour monsieur le robot"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "allo"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "salamalec"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "kikou"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonsoir"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Coucou"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Salutation \u00e0 vous"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Salutation \u00e0 toi"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour \u00e0 toi"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour \u00e0 vous"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour je cherche de l'aide"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour robot"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour vous"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour toi"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Salutation humain"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Salutation!"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Salut toi"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bj"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Yo"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Hello"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour madame"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour monsieur"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Salut"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bonjour"
+            }
+          ]
+        }
+      ]
+    }, 
+    "sayGoodBye": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "tchao bonsoir"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e0 plus tard"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "bonne journ\u00e9e"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e0 plus"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "au plaisir"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e0 la prochaine"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "adieux"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "adieu"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00e0 la revoyure"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "cu"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Byebye"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Au revoir \u00e0 bient\u00f4t"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "A bient\u00f4t"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "a+"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "A+"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Ciao"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Tchao"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Bye"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Au revoir"
+            }
+          ]
+        }
+      ]
+    }, 
+    "sayNo": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "noooo!"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "nan pas \u00e7a"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "pfeu non"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "non pas \u00e7a"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "surtout pas, non"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "J'ai chang\u00e9 d'avis"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Non j'ai chang\u00e9 d'avis"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Je ne veux pas"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Surtout pas"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Non.."
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Nan...."
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Nan"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "N\u00e9"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Non pas d'accord"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Attend, non"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Non je ne veux pas"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Non pas ainsi"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Nope"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "No"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Non pas du tout"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Non"
             }
           ]
         }

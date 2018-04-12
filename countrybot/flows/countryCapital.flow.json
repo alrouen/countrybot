@@ -1,0 +1,29 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "true",
+        "node": "#"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "ac1345d5f4",
+      "name": "entry",
+      "onEnter": [
+        "say #!text-l1EHOg"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ]
+    }
+  ]
+}

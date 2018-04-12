@@ -1,0 +1,191 @@
+Afghanistan
+Afrique du Sud
+Albanie
+Algérie
+Allemagne
+Andorre
+Angola
+Antigua-et-Barbuda,Antigua et barduda
+Arabie saoudite
+Argentine
+Arménie
+Australie
+Autriche
+Azerbaïdjan
+Bahamas
+Bahreïn
+Bangladesh
+Barbade
+Belgique
+Belize
+Bénin
+Bhoutan
+Birmanie
+Bolivie
+Bosnie-Herzégovine
+Botswana
+Brésil
+Brunei
+Bulgarie
+Burkina Faso
+Burundi
+Cambodge
+Cameroun
+Canada
+Cap-Vert
+Chili
+Chypre
+Colombie
+Comores
+Corée du Nord
+Corée du Sud,Corée
+Costa Rica
+Côte d'Ivoire
+Croatie
+Cuba
+Djibouti
+Dominique
+Égypte
+Émirats arabes unis,Emirats, Emirat arabes
+Équateur
+Érythrée
+Espagne
+Estonie
+États-Unis,USA, etats-unis
+Éthiopie
+Fidji
+Finlande
+France
+Gabon
+Gambie
+Géorgie
+Ghana
+Grèce
+Grenade
+Guatemala
+Guinée
+Guinée équatoriale
+Guinée-Bissau,Guinée Bissau
+Guyana
+Haïti,Haiti
+Honduras
+Hongrie
+île Maurice,Maurice
+îles Marshall,Marshall
+Inde
+Indonésie
+Irak
+Iran
+Irlande
+Islande
+Israël
+Italie
+Jamaïque
+Japon
+Jordanie
+Kazakhstan
+Kenya
+Kirghizistan
+Kiribati
+Koweït
+Laos
+Lesotho
+Lettonie
+Liban
+Liberia
+Libye
+Liechtenstein
+Lituanie
+Luxembourg
+Madagascar
+Malaisie
+Malawi
+Maldives
+Mali
+Malte
+Maroc
+Mauritanie
+Mexique
+Micronésie
+République de Moldavie,Moldavie
+Monaco
+Mongolie
+Monténégro,Monténégro
+Mozambique
+Namibie
+Nauru
+Népal
+Nicaragua
+Niger
+Nigeria
+Norvège
+Nouvelle-Zélande,nouvelle zélande
+Oman
+Ouganda
+Ouzbékistan
+Pakistan
+Palaos
+Panama
+Papouasie-Nouvelle-Guinée,Nouvelle guinée
+Paraguay
+Pays-Bas,Hollande
+Pérou
+Philippines
+Pologne
+Portugal
+Qatar
+République centrafricaine,Centrafrique
+République de Macédoine,Macédoine
+République démocratique du Congo,RDC
+République dominicaine
+République du Congo,Congo
+République populaire de Chine,Chine
+République socialiste soviétique de Biélorussie,Biélorussie
+République tchèque,Tchéquie
+Roumanie
+Royaume-Uni,Angleterre, Grande-Bretagne
+Russie
+Rwanda
+Saint-Marin
+Saint-Vincent-et-les-Grenadines,St Vincent les grenadine
+Sainte-Lucie,Sainte Lucie
+Salomon
+Salvador
+Samoa
+São Tomé et Príncipe,Sao Tomé et principe, Sao Tomé
+Sénégal
+République de Serbie,Serbie
+Seychelles
+Sierra Leone
+Singapour
+Slovaquie
+Slovénie
+Somalie
+Soudan
+Soudan du Sud
+Sri Lanka
+Suède
+Suisse
+Suriname
+Swaziland
+Syrie
+Tadjikistan
+Tanzanie
+Tchad
+Thaïlande
+Timor oriental
+Togo
+Tonga
+Trinité-et-Tobago,Trinité et tobago
+Tunisie
+Turkménistan
+Turquie
+Tuvalu
+Ukraine
+Uruguay
+Vanuatu
+Venezuela
+Viêt Nam,vietnam
+Yémen
+Zambie
+Zimbabwe

@@ -8,8 +8,6 @@ class Intent {
 
         if(snipsResponse.intent) {
 
-            console.log(snipsResponse.intent);
-
             this._intent = {
                 'found': true,
                 'name': snipsResponse.intent.intentName,
@@ -26,8 +24,6 @@ class Intent {
 
         if(snipsResponse.slots) {
 
-            console.log(snipsResponse.slots);
-
             this._slots = snipsResponse.slots.map(slot => ({
                 value: slot.value.value,
                 kind: slot.value.kind,
@@ -37,6 +33,10 @@ class Intent {
         } else {
             this._slots = [];
         }
+
+        console.debug(`intent: "${this._intent.name}" with probability: ${this._intent.probability}`);
+        console.debug(`slots: ${this._slots.length}`);
+        this._slots.forEach((slot) => { console.debug(` * ${slot.slotName} - ${slot.value}`) });
     }
 
     get found() {
@@ -74,8 +74,8 @@ module.exports = {
         ).then(function (response) {
             return new Intent(response.data);
         }).catch(function (error) {
-            console.log("Oops...");
-            console.log(error);
+            console.debug("Oops...");
+            console.debug(error);
             return new Intent({
                 input:rawText
             })
@@ -92,8 +92,8 @@ module.exports = {
         ).then(function (response) {
             return new Intent(response.data);
         }).catch(function (error) {
-            console.log("Oops...");
-            console.log(error);
+            console.debug("Oops...");
+            console.debug(error);
             return new Intent({
                 input:rawText
             })

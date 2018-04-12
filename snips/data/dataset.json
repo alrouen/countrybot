@@ -951,7 +951,8 @@
           "value": "Allemagne"
         }
       ]
-    }
+    }, 
+    "snips/datetime": {}
   }, 
   "intents": {
     "noise": {
@@ -2162,6 +2163,475 @@
           "data": [
             {
               "text": "Au revoir"
+            }
+          ]
+        }
+      ]
+    }, 
+    "sayWhatTimeIsIt": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "J'ai besoin de connaitre l'heure, quelle heure est t'il ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Il me faut savoir l'heure, pouvez-vous m'aider ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Savez-vous me donner l'heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Avez vous l'heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Avez-vous l'heure s'il vous plait"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Pouvez-vous me donner l'heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "As-tu l'heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Mais quelle heure est t'il ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Je cherche l'heure, tu peux m'aider ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "What time is it ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "L'heure stp ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Vous avez l'heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Il est quelle heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Donne l'heure"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Donne l'heure stp"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Donnez moi l'heure"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Donne moi l'heure"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Quelle heure se fait t'il ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Tu as l'heure stp ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Le temps passe vite, quelle heure est t'il ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Tu as l'heure ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "quelle heure est t'il ?"
+            }
+          ]
+        }
+      ]
+    }, 
+    "sayWhatWeekDayOnDate": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "il y a 50h", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": ", on \u00e9tait quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Il y a 20 jours", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": ", on \u00e9tait quel jour de la semaine ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Il y a 2 mois", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": ", on \u00e9tait quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Hier", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " on \u00e9tait quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Demain", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " on sera quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Je voudrais connaitre le jour il y a "
+            }, 
+            {
+              "text": "un mois", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Quel jour on \u00e9tait "
+            }, 
+            {
+              "text": "le 21 d\u00e9cembre 2015", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Quel jour on \u00e9tait "
+            }, 
+            {
+              "text": "il y a 2 mois", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Quel jour on \u00e9tait "
+            }, 
+            {
+              "text": "il y a un an", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dans 3 mois", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " exactement, on sera quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "C'est quoi comme jour "
+            }, 
+            {
+              "text": "le 21-12-2019", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Je voudrais connaitre quel sera le jour \u00e0 la date du "
+            }, 
+            {
+              "text": "12/07/2018", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "quel jour sera "
+            }, 
+            {
+              "text": "le 30/04/2021", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Le 20/01/2020", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": ", cela sera quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Le "
+            }, 
+            {
+              "text": "14 janvier 2019", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": ", quel jour on sera ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dans "
+            }, 
+            {
+              "text": "une heure", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": ", quel jour on sera ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dans "
+            }, 
+            {
+              "text": "un an", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": ", quel jour on sera ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Quel jour on sera dans "
+            }, 
+            {
+              "text": "une semaine", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dans "
+            }, 
+            {
+              "text": "un mois", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " on sera quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dans "
+            }, 
+            {
+              "text": "une semaine", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " on sera quel jour ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Quel jour on sera "
+            }, 
+            {
+              "text": "demain", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " ?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Le 5 Avril 1920", 
+              "entity": "snips/datetime", 
+              "slot_name": "date"
+            }, 
+            {
+              "text": " c'\u00e9tait quel jour ?"
             }
           ]
         }

@@ -1,0 +1,22 @@
+[date:snips/datetime](il y a 50h), on était quel jour ?
+[date:snips/datetime](Il y a 20 jours), on était quel jour de la semaine ?
+[date:snips/datetime](Il y a 2 mois), on était quel jour ?
+[date:snips/datetime](Hier) on était quel jour ?
+[date:snips/datetime](Demain) on sera quel jour ?
+Je voudrais connaitre le jour il y a [date:snips/datetime](un mois)
+Quel jour on était [date:snips/datetime](le 21 décembre 2015) ?
+Quel jour on était [date:snips/datetime](il y a 2 mois) ?
+Quel jour on était [date:snips/datetime](il y a un an) ?
+[date:snips/datetime](Dans 3 mois) exactement, on sera quel jour ?
+C'est quoi comme jour [date:snips/datetime](le 21-12-2019) ?
+Je voudrais connaitre quel sera le jour à la date du [date:snips/datetime](12/07/2018)
+quel jour sera [date:snips/datetime](le 30/04/2021) ?
+[date:snips/datetime](Le 20/01/2020), cela sera quel jour ?
+Le [date:snips/datetime](14 janvier 2019), quel jour on sera ?
+Dans [date:snips/datetime](une heure), quel jour on sera ?
+Dans [date:snips/datetime](un an), quel jour on sera ?
+Quel jour on sera dans [date:snips/datetime](une semaine) ?
+Dans [date:snips/datetime](un mois) on sera quel jour ? 
+Dans [date:snips/datetime](une semaine) on sera quel jour ?
+Quel jour on sera [date:snips/datetime](demain) ?
+[date:snips/datetime](Le 5 Avril 1920) c'était quel jour ?

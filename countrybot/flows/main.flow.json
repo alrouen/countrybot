@@ -7,44 +7,6 @@
   "startNode": "start",
   "nodes": [
     {
-      "id": "0f6f7b5889",
-      "name": "mainIntents",
-      "onEnter": [],
-      "next": [
-        {
-          "condition": "state.intent.found && state.intent.probability < 0.6",
-          "node": "unknownQuestion.flow.json"
-        },
-        {
-          "condition": "state.intent.found && state.intent.name === \"sayHello\"",
-          "node": "sayHello"
-        },
-        {
-          "condition": "state.intent.found && state.intent.name === \"sayThankYou\"",
-          "node": "sayThankYou"
-        },
-        {
-          "condition": "state.intent.found && state.intent.name === \"sayHowAreYou\"",
-          "node": "sayImFineThanks"
-        },
-        {
-          "condition": "state.intent.found && state.intent.name === \"searchCountryCapital\"",
-          "node": "countryCapital.flow.json"
-        },
-        {
-          "condition": "state.intent.found && state.intent.name === \"sayGoodBye\"",
-          "node": "end.flow.json"
-        },
-        {
-          "condition": "true",
-          "node": "doNotUnderstand.flow.json"
-        }
-      ],
-      "onReceive": [
-        "resolveIntent {}"
-      ]
-    },
-    {
       "id": "e8635856e9",
       "name": "sayHello",
       "next": [
@@ -99,6 +61,52 @@
         "say #!text-MVEFMH"
       ],
       "onReceive": null
+    },
+    {
+      "id": "0f6f7b5889",
+      "name": "mainIntents",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "state.intent.found && state.intent.probability < 0.6",
+          "node": "unknownQuestion.flow.json"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayHello\"",
+          "node": "sayHello"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayThankYou\"",
+          "node": "sayThankYou"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayHowAreYou\"",
+          "node": "sayImFineThanks"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"searchCountryCapital\"",
+          "node": "countryCapital.flow.json"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayWhatWeekDayOnDate\"",
+          "node": "dayOfWeek.flow.json"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayWhatTimeIsIt\"",
+          "node": "clock.flow.json"
+        },
+        {
+          "condition": "state.intent.found && state.intent.name === \"sayGoodBye\"",
+          "node": "end.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "doNotUnderstand.flow.json"
+        }
+      ],
+      "onReceive": [
+        "resolveIntent {}"
+      ]
     }
   ]
 }

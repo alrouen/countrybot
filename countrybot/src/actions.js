@@ -1,12 +1,16 @@
 const _ = require('lodash');
 const axios = require('axios');
+const moment = require('moment');
 const oversnips = require('./oversnips');
 const countryDB = require('./countryDB');
+
 
 //const moment = require('moment');
 //const ms = require('ms');
 
 axios.defaults.headers.post['Content-Type'] = "application/json";
+
+moment.locale('fr');
 
 /**
  * @param {string} args.name - Name of the tag.
@@ -48,24 +52,14 @@ module.exports = {
 
     resolveIntent: async (state, event, { intentFilter } ) => {
 
-        console.log(event.text);
-        console.log("filter:");
-        console.log(intentFilter);
-
-        //event.reply('text', { typing: true });
+        event.reply('text', { typing: true });
 
         if(!!intentFilter) {
             return await oversnips.getFilteredIntent(event.text, intentFilter.split(',')).then((intent) => {
-                console.log(`intent: ${intent.name}: ${intent.probability}`);
-                console.log("slots:");
-                console.log(intent.slots);
                 return { ...state, intent: intent };
             });
         } else {
             return await oversnips.getIntent(event.text).then((intent) => {
-                console.log(`intent: ${intent.name}: ${intent.probability}`);
-                console.log("slots:");
-                console.log(intent.slots);
                 return { ...state, intent: intent };
             });
         }
@@ -77,13 +71,23 @@ module.exports = {
           let countrySlot = state.intent.slotByName("country");
           if(countrySlot) {
               let country = countryDB.countryByName(countrySlot.value);
-              console.log(`capital is: ${country.capital}`);
               return { ...state, searchCountryCapitalResponse: country }
           } else {
-              console.log("no country found :(");
               return _.omit(state, ["searchCountryCapitalResponse"]);
           }
       }
+    },
+
+    computeTime: (state, event) => {
+        return { ...state, now: moment().format('HH:mm:ss')};
+    },
+
+    computeDayOfWeek: (state, event) => {
+
+        let dateSlot = state.intent.slotByName("date");
+        let d = moment(dateSlot.value, "YYYY-MM-DD HH:mm:ss +-HH:mm");
+
+        return { ...state, dayOfWeekResponse: {date: d.format("DD MMMM YYYY"), weekDay: moment.weekdays(d.weekday()+1)} };
     },
 
     debug: (state, event) => {

@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "@botpress/analytics": "^10.0.2",
-    "@botpress/channel-slack": "^1.0.23",
+    "@botpress/channel-messenger": "^10.0.5",
+    "@botpress/channel-slack": "^10.0.10",
     "@botpress/channel-web": "^10.0.10",
     "@botpress/skill-choice": "^10.0.4",
     "botpress": "^10.0.6",
